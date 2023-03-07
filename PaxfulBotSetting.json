@@ -1,6 +1,6 @@
 {
   "job_settings": {
-    "monitoringGaps": ,
+    "monitoringGaps": 30,
     "messages": [
       "Hello Paylink below to pay:",
       "https://www.facebook.com/profile.php?id=100090116602283&mibextid=LQQJ4d",
