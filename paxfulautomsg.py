@@ -4,12 +4,11 @@ from urllib.parse import urlencode
 import json
 from time import sleep,time
 from datetime import datetime
-
 import requests  # pip install requests
 
 API_URL = "https://paxful.com/api/"
-API_KEY = "t5EMlNUdjJVnMRtwtFwbqmqpZhnnSffL"
-API_SECRET = "6Amc02jUEekD6Mf7XKdF66tQh4astSP0"
+API_KEY = "MMvLomc7GrdUmEQclmElM1vVH0wbL8MY"
+API_SECRET = "NJyFA0qsL5MFdelWlfc1mE25a0U4AfY1"
 
 class PaxfulBot():
     def __init__(self, data):
@@ -21,12 +20,12 @@ class PaxfulBot():
     
     def setBot(self, settings):
         print(settings)
-        self.monitoringGaps = settings['monitoringgaps']
+        self.monitoringGaps = settings['monitoringGaps']
         self.messages = settings['messages']
         self.activedtrades = list()
         self.setHashs = set()
-        self.author = 'smeago'
-
+        self.author = 'cryptoquickapp'
+        
     def callapis(self, url, params=''):
         try:
             nonce = int(time())

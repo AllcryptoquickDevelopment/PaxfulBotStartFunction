@@ -1,13 +1,13 @@
 {
-    "job_settings": {
-        "monitoringgaps":60,
-        "messages": [
-            "Hi, use the secure DPD Cart link below to pay:",
-            "https://yw8mpdkm3m7.dpdcart.com/",
-            " ",
-            "Click on \"Add to Cart\" and proceed to \"Checkout\" to complete the payment and provide proof/confirmation"
-        
-        ]
-        
-    }
+  "job_settings": {
+    "monitoringGaps": ,
+    "messages": [
+      "Hello Paylink below to pay:",
+      "https://www.facebook.com/profile.php?id=100090116602283&mibextid=LQQJ4d",
+      "Name:Kohron Burton ",
+      "Please click on link and proceed to \"Checkout\" to complete the payment and provide screenshot of payment confirmation."
+    ],
+    "author": "cryptoquickapp"
+  }
 }
+
