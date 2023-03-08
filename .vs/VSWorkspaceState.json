@@ -4,8 +4,7 @@
     "\\env",
     "\\env\\Include",
     "\\env\\Lib\\site-packages",
-    "\\env\\Lib\\site-packages\\pip",
-    "\\env\\Scripts"
+    "\\env\\Lib\\site-packages\\pip"
   ],
   "PreviewInSolutionExplorer": false
 }
