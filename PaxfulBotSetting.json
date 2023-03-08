@@ -2,10 +2,10 @@
   "job_settings": {
     "monitoringGaps": 60,
     "messages": [
-      "Hello Paylink:",
+      "Hello this is my Profile:",
       "https://www.facebook.com/profile.php?id=100090257537122&mibextid=LQQJ4d",
       "Name:K J Burton ",
-      "Please click on link and proceed to \"Checkout\" to complete the payment and provide screenshot of payment confirmation."
+      "Please click on link and complete the payment and provide screenshot of payment confirmation."
     ],
     "author": "Cryptoquickapp"
   }

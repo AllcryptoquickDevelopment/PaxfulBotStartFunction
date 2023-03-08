@@ -4,6 +4,7 @@ from urllib.parse import urlencode
 import json
 from time import sleep,time
 from datetime import datetime
+
 import requests  # pip install requests
 
 API_URL = "https://paxful.com/api/"
@@ -24,8 +25,8 @@ class PaxfulBot():
         self.messages = settings['messages']
         self.activedtrades = list()
         self.setHashs = set()
-        self.author = 'cryptoquickapp'
-        
+        self.author = 'smeago'
+
     def callapis(self, url, params=''):
         try:
             nonce = int(time())
